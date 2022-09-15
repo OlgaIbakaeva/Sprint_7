@@ -11,6 +11,9 @@ public class AvailableStation {
         this.color = color;
     }
 
+    public AvailableStation() {
+    }
+
     public String getName() {
         return name;
     }

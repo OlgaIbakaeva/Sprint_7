@@ -12,7 +12,8 @@ public class ListOfOrder {
         this.pageInfo = pageInfo;
         this.availableStations = availableStations;
     }
-
+    public ListOfOrder() {
+    }
     public List<Order> getOrders() {
         return orders;
     }

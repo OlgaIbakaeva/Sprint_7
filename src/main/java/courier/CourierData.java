@@ -14,6 +14,9 @@ public class CourierData {
         this.firstName = firstName;
     }
 
+    public CourierData() {
+    }
+
     public static CourierData getCourierCorrect() {
         return new CourierData(
                 RandomStringUtils.randomAlphanumeric(10),

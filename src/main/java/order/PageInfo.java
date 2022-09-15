@@ -11,6 +11,9 @@ public class PageInfo {
         this.limit = limit;
     }
 
+    public PageInfo() {
+    }
+
     public int getPage() {
         return page;
     }
